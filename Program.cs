@@ -5,8 +5,10 @@ class Program
     // Верните n! = 1 * 2 * ... * n (0! = 1)
     static long Factorial(int n)
     {
-        // TODO: напишите решение здесь
-        return 0;
+    long result=1;
+        for(int i = 1; i <= n; i++)
+        {
+            result *= i;
     }
 
     static void Main()
@@ -28,3 +30,4 @@ class Program
         Console.WriteLine($"n = {n}: получено {result}, ожидалось {expected} - {status}");
     }
 }
+//Минас и Александр
