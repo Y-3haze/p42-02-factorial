@@ -2,13 +2,16 @@ using System;
 
 class Program
 {
-    // Верните n! = 1 * 2 * ... * n (0! = 1)
     static long Factorial(int n)
     {
-    long result=1;
-        for(int i = 1; i <= n; i++)
+        long result = 1;
+
+        for (int i = 1; i <= n; i++)
         {
             result *= i;
+        }
+
+        return result;
     }
 
     static void Main()
